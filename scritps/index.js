@@ -1,4 +1,3 @@
-console.log(frontEndJobs)
 function renderCards(arr){
     
     const ul = document.createElement("ul")
@@ -59,31 +58,3 @@ function creatingCards(list){
 
 }
 creatingCards(renderCards)
-
-
-
-
-    //     <ul class="box__jobs--front">
-    //     <li>
-    //         <div class="box__card">
-    //             <div class="box__header">
-    //                 <div class="box__header__perfil">G</div>
-    //                 <div>
-
-    //                     <h3>Desenvolvedor Frontend</h3>
-    //                     <span>Curitiba - Paraná</span>
-
-    //                 </div>
-
-    //             </div>
-    //                 <p>Lorem Ipsum is simply dummy text of the printing and
-    //                      typesetting industry. 
-    //                     Lorem Ipsum has been the industry's 
-    //                     standard dummy text ever since the 1500s</p>                
-    //                 <div class="box__footer">
-    //                     <span>Full Time</span>
-    //                     <span>Remote</span>
-    //               </div>
-    //         </div>
-    //     </li>
-    // </ul>
