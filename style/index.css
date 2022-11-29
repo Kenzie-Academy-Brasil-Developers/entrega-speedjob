@@ -73,6 +73,93 @@
     }
 }
 
+@media(min-width: 550px){
+
+    box__container{
+        padding: 50px;
+        
+    }
+
+    .box__jobs--front{
+        display: flex;
+        width: 100%;
+        overflow-x: hidden;
+        flex-wrap: wrap;
+    }
+
+    .box__card{
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .box__Front{
+        margin-top: 40px;
+        height: auto;
+        padding: 50px;
+    }
+
+    .box__Front li{
+        width: 60%;
+        flex-wrap: wrap;
+        margin: 10px auto;
+    }
+    
+    .box__Backend{
+        margin-top: 40px;
+        height: auto;
+        padding: 50px;
+    }
+
+    .box__Backend li{
+        width: 45%;
+        flex-wrap: wrap;
+        margin: 10px auto;
+    }
+}
+@media(min-width: 700px){
+
+    box__container{
+        padding: 30px;
+        
+    }
+
+    .box__jobs--front{
+        display: flex;
+        width: 100%;
+        overflow-x: hidden;
+        flex-wrap: wrap;
+    }
+
+    .box__card{
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .box__Front{
+        margin-top: 40px;
+        height: auto;
+        padding: 50px;
+    }
+
+    .box__Front li{
+        width: 45%;
+        flex-wrap: wrap;
+        margin: 20px auto;
+    }
+    
+    .box__Backend{
+        margin-top: 40px;
+        height: auto;
+        padding: 50px;
+    }
+
+    .box__Backend li{
+        width: 45%;
+        flex-wrap: wrap;
+        margin: 10px auto;
+    }
+}
+
 @media(min-width: 900px){
 
     box__container{

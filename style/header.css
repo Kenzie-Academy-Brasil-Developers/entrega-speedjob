@@ -108,8 +108,10 @@ nav{
 
 }
 
+
 @media(min-width: 900px){
     .menu__header button{
+        
         height: 50px;
     }
     nav{
@@ -117,7 +119,7 @@ nav{
     }
     .menu__btns{
         display: flex;
-        width: 70%;
+        width: 25%;
         gap: 20px;
     }
 }
