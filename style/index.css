@@ -7,17 +7,18 @@
 .box__Front{
     margin-top: 40px;
     height: 350px;
+    overflow-x: scroll;
 }
 
 .box__Backend{
     margin-top: 40px;
     height: 350px;
+    overflow-x: scroll;
 }
 
 .box__jobs--front{
     display: flex;
     width: 800px;
-    overflow-x: scroll;
 }
 
 .box__jobs--front li{
